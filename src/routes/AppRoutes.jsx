@@ -9,6 +9,9 @@ import Payments from "../pages/Payments";
 import BookingSuccess from "../pages/BookingSuccess";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import Movies from "../pages/Movies";
+import Theatres from "../pages/Theatres";
+import Contact from "../pages/Contact";
 
 // Optional testing page
 // import TestMovieComponents from "../pages/TestMovieComponents";
@@ -39,6 +42,11 @@ const AppRoutes = () => {
         {/* Auth */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+
+        {/* Additional public pages */}
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/theatres" element={<Theatres />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* Debugging page for component testing (optional) */}
         {/* <Route path="/test" element={<TestMovieComponents />} /> */}

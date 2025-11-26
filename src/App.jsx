@@ -18,6 +18,9 @@ import Payments from "./pages/Payments";
 import BookingSuccess from "./pages/BookingSuccess";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Movies from "./pages/Movies";
+import Theatres from "./pages/Theatres";
+import Contact from "./pages/Contact";
 
 // Layout for all main pages
 function Layout() {
@@ -62,6 +65,10 @@ const router = createBrowserRouter([
       // Authentication
       { path: "/login", element: <Login /> },
       { path: "/register", element: <Register /> },
+      // Additional public pages
+      { path: "/movies", element: <Movies /> },
+      { path: "/theatres", element: <Theatres /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ]);

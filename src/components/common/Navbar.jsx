@@ -30,6 +30,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-gray-800 px-6 py-4 space-y-4">
           <Link to="/" className="block hover:text-red-400" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link to="/movies" className="block hover:text-red-400" onClick={() => setIsOpen(false)}>Movies</Link>
+          <Link to="/theatres" className="block hover:text-red-400" onClick={() => setIsOpen(false)}>Theatres</Link>
+          <Link to="/contact" className="block hover:text-red-400" onClick={() => setIsOpen(false)}>Contact</Link>
           <Link to="/login" className="block hover:text-red-400" onClick={() => setIsOpen(false)}>Login</Link>
         </div>
       )}
