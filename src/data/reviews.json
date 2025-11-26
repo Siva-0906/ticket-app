@@ -1,0 +1,45 @@
+[
+  {
+    "movieId": 1,
+    "reviews": [
+      {
+        "author": "Ravi Kumar",
+        "rating": 4.5,
+        "comment": "Mind-bending visuals and incredible storytelling.",
+        "date": "2025-04-20",
+        "avatarUrl": ""
+      },
+      {
+        "author": "Sneha",
+        "rating": 4,
+        "comment": "Hans Zimmer's score alone deserves 5 stars!",
+        "date": "2025-04-18",
+        "avatarUrl": ""
+      }
+    ]
+  },
+  {
+    "movieId": 2,
+    "reviews": [
+      {
+        "author": "Vikram",
+        "rating": 5,
+        "comment": "One of the greatest sci-fi epics ever created.",
+        "date": "2025-04-10",
+        "avatarUrl": ""
+      }
+    ]
+  },
+  {
+    "movieId": 3,
+    "reviews": [
+      {
+        "author": "Meera",
+        "rating": 4.8,
+        "comment": "Heath Ledger’s Joker is legendary.",
+        "date": "2025-04-12",
+        "avatarUrl": ""
+      }
+    ]
+  }
+]

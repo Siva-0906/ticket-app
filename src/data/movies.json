@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "poster": "/movies/inception.jpg",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "duration": "2h 28m",
+    "certificate": "U/A",
+    "description": "A skilled thief enters the dreams of others to steal secrets and plant ideas."
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "poster": "/movies/interstellar.jpg",
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "duration": "2h 49m",
+    "certificate": "U",
+    "description": "A group of explorers travel through a wormhole in search of a new home for humanity."
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "poster": "/movies/dark-knight.jpg",
+    "genre": "Action",
+    "rating": 9.0,
+    "duration": "2h 32m",
+    "certificate": "U/A",
+    "description": "Batman faces the Joker, a criminal mastermind who plunges Gotham into chaos."
+  }
+]
